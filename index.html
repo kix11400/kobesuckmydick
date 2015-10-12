@@ -3,17 +3,19 @@
  
   <head>
 <link rel="stylesheet" type="text/css" href="index.css">
-<SCRIPT LANGAGE="JavaScript" SRC="filename.js">
 <script src="jquery-1.11.3.js"></script>
+
   </head>
   <style>
-        #header {
-        background-color:black;
-        color:white;
-    	text-align:center;
-    	padding:5px;	 
-    	}
-   	#Bio{
+    #header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+    }
+	
+	
+	#center{
 	width:870px;
 	float:left;
 	padding:30px;
@@ -31,25 +33,44 @@
 	}
 	
   </style>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").fadeOut(2000);
+    });
+    $("#show").click(function(){
+        $("p").fadeIn(2000);
+    });
+});
+  </script>
   <body>
   <div id="header">
     <h1>CHIA-YU LIU</h1>
   </div>
   
   
-  <div id="Bio">
+ <div id="center">
+  <div id="sum">
     <h2>Summary</h2>
 	<p>Born in Dec.7,1994, Taipei. Chia-Yu Liu now lives in Tainan, Taiwan, known as the
 	lazyest student in NCKU department of Electrical Engineering.
+  </div>
+  <div id="edu">
     <h2>Education</h2>
     <p>Student of National Cheng Kong University Department of Electrical Engineering</p>
+  </div>
+  <div id="skill">
 	<h2>Skills</h2>
 	<p>Piano</p>
 	<p>Guitar</p>
 	<p>Basketball</p>
+  </div>	
+  <div id="exp">
     <h2>Experience</h2>
 	<p>Member of Guitar Club</p>
-	
+  </div>
+	<button id="hide">Hide</button>
+    <button id="show">Show</button>
   </div>
 <div id="side">
  
