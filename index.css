@@ -24,13 +24,13 @@ header {
 	padding:30px;
 	background-color:#FFFF66;
 	}
-	#side{
+	side{
 	width:320px;
 	float:left;
 	padding:30px;
 	background-color:#FFFF33;
 	}
-	#photo{
+	photo{
 	float:right;
 	
 	}
