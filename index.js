@@ -1,1 +1,11 @@
-lick my balls
+ $(document).ready(function()
+	{
+    $("#hide").click(function()
+	{
+        $("p").fadeOut(2000);
+    });
+    $("#show").click(function()
+	{
+        $("p").fadeIn(2000);
+    });
+});
