@@ -1,4 +1,9 @@
 
+body {
+    background-image: url("http://www.gjsa.net/wp-content/uploads/2013/01/Grey-background-for-site1.jpg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
 h2 {
     color: purple;
     text-align: center;
@@ -10,7 +15,5 @@ p {
     font-size: 20px;
 }
 
-	
-	
 
 
